@@ -8,44 +8,42 @@
     tools:context=".SignUp">
 
     <LinearLayout
-        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_centerInParent="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/edtPhone"
-            android:hint="Telefone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@android:color/white"
-            android:textColor="@android:color/white"
-            android:textSize="30sp"
+            android:hint="Telefone"
             android:inputType="phone"
-            />
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/edtName"
-            android:hint="Nome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@android:color/white"
-            android:textColor="@android:color/white"
-            android:textSize="30sp"
+            android:hint="Nome"
             android:inputType="textPersonName"
-            />
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="30sp" />
 
         <EditText
             android:id="@+id/edtPassword"
-            android:hint="Senha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@android:color/white"
+            android:hint="Senha"
+            android:inputType="textPassword"
             android:textColor="@android:color/white"
-            android:textSize="30sp"
-            android:inputType="textPassword"/>
+            android:textColorHint="@android:color/white"
+            android:textSize="30sp" />
 
     </LinearLayout>
 
