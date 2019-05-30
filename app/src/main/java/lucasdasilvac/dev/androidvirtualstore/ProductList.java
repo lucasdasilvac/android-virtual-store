@@ -1,5 +1,6 @@
 package lucasdasilvac.dev.androidvirtualstore;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -67,7 +68,10 @@ public class ProductList extends AppCompatActivity {
                 viewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
-                        Toast.makeText(ProductList.this, ""+local.getName(), Toast.LENGTH_SHORT).show();
+                        //start new activity
+                        Intent productDetail = new Intent(ProductList.this, ProductDetail.class);
+                        productDetail.putExtra("productid", adapter.getRef(position).getKey()); //send product_id to new activity
+                        startActivity(productDetail);
                     }
                 });
             }
