@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     Button btnSignIn, btnSignUp;
-    TextView txtSlogan;
+    //TextView txtSlogan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnSignIn = (Button) findViewById(R.id.btnSignIn);
         btnSignUp = (Button) findViewById(R.id.btnSignUp);
 
-        txtSlogan = (TextView) findViewById(R.id.txtSlogan);
+        //txtSlogan = (TextView) findViewById(R.id.txtSlogan);
 
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
