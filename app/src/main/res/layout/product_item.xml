@@ -15,7 +15,7 @@
         <ImageView
             android:id="@+id/product_image"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/my_bg"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
