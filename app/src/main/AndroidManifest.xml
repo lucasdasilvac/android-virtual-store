@@ -13,14 +13,22 @@
         android:theme="@style/AppTheme">
         <activity android:name=".OrderStatus"></activity>
         <activity android:name=".Cart" />
-        <activity android:name=".ProductDetail" />
-        <activity android:name=".ProductList" />
+        <activity android:name=".ProductDetail"
+            android:parentActivityName=".ProductList"
+            />
+        <activity android:name=".ProductList"
+            android:parentActivityName=".Home"
+            />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".SignIn" />
+        <activity android:name=".SignUp"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity android:name=".SignIn"
+            android:parentActivityName=".MainActivity"
+            />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
