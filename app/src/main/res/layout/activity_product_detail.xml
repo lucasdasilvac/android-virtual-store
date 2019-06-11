@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProductDetail">
-    
+
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleTextAppearance="@android:color/transparent"
             >
-            
+
             <ImageView
                 android:id="@+id/img_product"
                 android:layout_width="match_parent"
@@ -32,12 +32,12 @@
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax"
                 />
-            
+
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:title="Product Name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="?attr/actionBarSize"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 app:layout_collapseMode="parallax"
 

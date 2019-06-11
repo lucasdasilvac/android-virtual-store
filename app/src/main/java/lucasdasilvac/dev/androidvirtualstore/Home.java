@@ -24,6 +24,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
+import lucasdasilvac.dev.androidvirtualstore.Database.Database;
 import lucasdasilvac.dev.androidvirtualstore.Interface.ItemClickListener;
 import lucasdasilvac.dev.androidvirtualstore.ViewHolder.MenuViewHolder;
 import lucasdasilvac.dev.androidvirtualstore.common.Common;
@@ -118,7 +119,7 @@ public class Home extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            //super.onBackPressed();
         }
     }
 
@@ -152,6 +153,7 @@ public class Home extends AppCompatActivity
             //logout
             Intent signIn = new Intent(Home.this, SignIn.class);
             signIn.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            new Database(getBaseContext()).cleanCart();
             startActivity(signIn);
         }
 
