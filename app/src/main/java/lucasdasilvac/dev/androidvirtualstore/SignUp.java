@@ -15,7 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import lucasdasilvac.dev.androidvirtualstore.model.User;
+import lucasdasilvac.dev.androidvirtualstore.Model.User;
 
 public class SignUp extends AppCompatActivity {
 

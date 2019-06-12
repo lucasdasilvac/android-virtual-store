@@ -1,4 +1,4 @@
-package lucasdasilvac.dev.androidvirtualstore.model;
+package lucasdasilvac.dev.androidvirtualstore.Model;
 
 import java.util.List;
 

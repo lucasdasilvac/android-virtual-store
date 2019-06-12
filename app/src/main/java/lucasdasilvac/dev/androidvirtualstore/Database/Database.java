@@ -10,7 +10,7 @@ import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 import java.util.ArrayList;
 import java.util.List;
 
-import lucasdasilvac.dev.androidvirtualstore.model.Order;
+import lucasdasilvac.dev.androidvirtualstore.Model.Order;
 
 public class Database extends SQLiteAssetHelper {
     private static final String DB_NAME="AndroidVirtualStoreDB.db";

@@ -3,7 +3,6 @@ package lucasdasilvac.dev.androidvirtualstore;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -17,7 +16,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
@@ -27,9 +25,8 @@ import com.squareup.picasso.Picasso;
 import lucasdasilvac.dev.androidvirtualstore.Database.Database;
 import lucasdasilvac.dev.androidvirtualstore.Interface.ItemClickListener;
 import lucasdasilvac.dev.androidvirtualstore.ViewHolder.MenuViewHolder;
-import lucasdasilvac.dev.androidvirtualstore.common.Common;
-import lucasdasilvac.dev.androidvirtualstore.model.Category;
-import lucasdasilvac.dev.androidvirtualstore.model.Order;
+import lucasdasilvac.dev.androidvirtualstore.Common.Common;
+import lucasdasilvac.dev.androidvirtualstore.Model.Category;
 
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

@@ -19,8 +19,8 @@ import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 import lucasdasilvac.dev.androidvirtualstore.Database.Database;
-import lucasdasilvac.dev.androidvirtualstore.model.Order;
-import lucasdasilvac.dev.androidvirtualstore.model.Product;
+import lucasdasilvac.dev.androidvirtualstore.Model.Order;
+import lucasdasilvac.dev.androidvirtualstore.Model.Product;
 
 public class ProductDetail extends AppCompatActivity {
 

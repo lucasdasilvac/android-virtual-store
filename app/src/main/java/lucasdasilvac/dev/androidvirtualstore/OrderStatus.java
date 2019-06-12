@@ -10,8 +10,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import lucasdasilvac.dev.androidvirtualstore.ViewHolder.OrderViewHolder;
-import lucasdasilvac.dev.androidvirtualstore.common.Common;
-import lucasdasilvac.dev.androidvirtualstore.model.Request;
+import lucasdasilvac.dev.androidvirtualstore.Common.Common;
+import lucasdasilvac.dev.androidvirtualstore.Model.Request;
 
 public class OrderStatus extends AppCompatActivity {
 

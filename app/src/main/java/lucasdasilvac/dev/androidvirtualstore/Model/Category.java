@@ -1,4 +1,4 @@
-package lucasdasilvac.dev.androidvirtualstore.model;
+package lucasdasilvac.dev.androidvirtualstore.Model;
 
 public class Category {
     private String name;

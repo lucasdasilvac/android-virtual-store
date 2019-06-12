@@ -22,10 +22,10 @@ import java.util.List;
 import java.util.Locale;
 
 import lucasdasilvac.dev.androidvirtualstore.ViewHolder.CartAdapter;
-import lucasdasilvac.dev.androidvirtualstore.common.Common;
-import lucasdasilvac.dev.androidvirtualstore.model.Order;
+import lucasdasilvac.dev.androidvirtualstore.Common.Common;
+import lucasdasilvac.dev.androidvirtualstore.Model.Order;
 import lucasdasilvac.dev.androidvirtualstore.Database.Database;
-import lucasdasilvac.dev.androidvirtualstore.model.Request;
+import lucasdasilvac.dev.androidvirtualstore.Model.Request;
 
 public class Cart extends AppCompatActivity {
 

@@ -18,7 +18,7 @@ import java.util.Locale;
 
 import lucasdasilvac.dev.androidvirtualstore.Interface.ItemClickListener;
 import lucasdasilvac.dev.androidvirtualstore.R;
-import lucasdasilvac.dev.androidvirtualstore.model.Order;
+import lucasdasilvac.dev.androidvirtualstore.Model.Order;
 
 class CartViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 

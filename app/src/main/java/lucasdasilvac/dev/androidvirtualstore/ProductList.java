@@ -9,7 +9,6 @@ import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
-import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DataSnapshot;
@@ -25,7 +24,7 @@ import java.util.List;
 
 import lucasdasilvac.dev.androidvirtualstore.Interface.ItemClickListener;
 import lucasdasilvac.dev.androidvirtualstore.ViewHolder.ProductViewHolder;
-import lucasdasilvac.dev.androidvirtualstore.model.Product;
+import lucasdasilvac.dev.androidvirtualstore.Model.Product;
 
 public class ProductList extends AppCompatActivity {
 
