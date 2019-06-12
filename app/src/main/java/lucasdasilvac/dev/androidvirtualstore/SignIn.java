@@ -61,11 +61,11 @@ public class SignIn extends AppCompatActivity {
                                 startActivity(homeIntent);
                                 finish();
                             } else {
-                                Toast.makeText(SignIn.this, "Senha incorreta!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SignIn.this, "senha incorreta", Toast.LENGTH_SHORT).show();
                             }
                         } else {
                             mDialog.dismiss();
-                            Toast.makeText(SignIn.this, "Usuário não existe no banco de dados", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignIn.this, "usuário não existe no banco de dados", Toast.LENGTH_SHORT).show();
                         }
                     }
 

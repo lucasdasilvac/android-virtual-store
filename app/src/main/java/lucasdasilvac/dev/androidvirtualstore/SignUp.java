@@ -50,12 +50,12 @@ public class SignUp extends AppCompatActivity {
                         //check if already user phone
                         if(dataSnapshot.child(edtPhone.getText().toString()).exists()) {
                             mDialog.dismiss();
-                            Toast.makeText(SignUp.this, "Número de telefone já registrado", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignUp.this, "número de telefone já registrado", Toast.LENGTH_SHORT).show();
                         } else {
                             mDialog.dismiss();
                             User user = new User(edtName.getText().toString(), edtPassword.getText().toString());
                             table_user.child(edtPhone.getText().toString()).setValue(user);
-                            Toast.makeText(SignUp.this, "Cadastro realizado com sucesso!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignUp.this, "cadastro realizado com sucesso", Toast.LENGTH_SHORT).show();
                             finish();
                         }
                     }

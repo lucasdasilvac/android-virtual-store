@@ -72,8 +72,8 @@ public class Cart extends AppCompatActivity {
 
     private void showAlertDialog() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(Cart.this);
-        alertDialog.setTitle("Falta apenas mais um passo!");
-        alertDialog.setMessage("Informe seu endereço");
+        alertDialog.setTitle("falta apenas mais um passo");
+        alertDialog.setMessage("informe seu endereço");
 
         final EditText edtAddress = new EditText(Cart.this);
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(
@@ -100,7 +100,7 @@ public class Cart extends AppCompatActivity {
                         .setValue(request);
                 //delete cart
                 new Database(getBaseContext()).cleanCart();
-                Toast.makeText(Cart.this, "Obrigado, pedido realizado com sucesso", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Cart.this, "obrigado, pedido realizado com sucesso", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });

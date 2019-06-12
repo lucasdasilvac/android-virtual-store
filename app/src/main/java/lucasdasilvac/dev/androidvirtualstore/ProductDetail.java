@@ -61,7 +61,7 @@ public class ProductDetail extends AppCompatActivity {
                         currentProduct.getDiscount()
 
                 ));
-                Toast.makeText(ProductDetail.this, "Adicionado ao carrinho", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ProductDetail.this, "adicionado ao carrinho", Toast.LENGTH_SHORT).show();
             }
         });
 
