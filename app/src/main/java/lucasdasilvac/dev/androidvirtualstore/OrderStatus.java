@@ -62,10 +62,10 @@ public class OrderStatus extends AppCompatActivity {
 
     private String convertCodeToStatus(String status) {
         if(status.equals("0"))
-            return "Realizado";
+            return "realizado";
         else if (status.equals("1"))
-            return "A caminho";
+            return "a caminho";
         else
-            return "Enviado";
+            return "enviado";
     }
 }
