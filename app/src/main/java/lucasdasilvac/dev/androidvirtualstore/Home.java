@@ -24,6 +24,7 @@ import com.squareup.picasso.Picasso;
 
 import lucasdasilvac.dev.androidvirtualstore.Database.Database;
 import lucasdasilvac.dev.androidvirtualstore.Interface.ItemClickListener;
+import lucasdasilvac.dev.androidvirtualstore.Service.ListenOrder;
 import lucasdasilvac.dev.androidvirtualstore.ViewHolder.MenuViewHolder;
 import lucasdasilvac.dev.androidvirtualstore.Common.Common;
 import lucasdasilvac.dev.androidvirtualstore.Model.Category;
@@ -83,6 +84,10 @@ public class Home extends AppCompatActivity
         recycler_menu.setLayoutManager(layoutManager);
 
         loadMenu();
+
+        //register service
+        Intent service = new Intent(Home.this, ListenOrder.class);
+        startService(service);
 
     }
 

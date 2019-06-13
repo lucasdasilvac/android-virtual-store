@@ -11,22 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OrderStatus"
-            ></activity>
-        <activity android:name=".Cart"
-            />
-        <activity android:name=".ProductDetail"
-            />
-        <activity android:name=".ProductList"
-            />
+        <service
+            android:name=".Service.ListenOrder"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".OrderStatus" />
+        <activity android:name=".Cart" />
+        <activity android:name=".ProductDetail" />
+        <activity android:name=".ProductList" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SignUp"
-            />
-        <activity android:name=".SignIn"
-            />
+        <activity android:name=".SignUp" />
+        <activity android:name=".SignIn" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,7 +33,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
