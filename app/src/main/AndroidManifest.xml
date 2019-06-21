@@ -11,10 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
         <service
             android:name=".Service.ListenOrder"
             android:enabled="true"
             android:exported="true"></service>
+
+        <provider
+            android:authorities="com.facebook.app.FacebookContentProvider693556671070321"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
 
         <activity android:name=".OrderStatus" />
         <activity android:name=".Cart" />

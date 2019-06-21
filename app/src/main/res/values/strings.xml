@@ -15,4 +15,7 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    
+    <string name="facebook_app_id">693556671070321</string>
+    <string name="facebook_login_protocol_name">fb693556671070321</string>
 </resources>
