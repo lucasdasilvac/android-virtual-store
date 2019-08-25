@@ -1,3 +1,3 @@
 # android-virtual-store
 
-**Client side the app CompraAki.**
+**Client side the app Compraki.**
